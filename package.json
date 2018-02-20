@@ -4,14 +4,16 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "start": "NODE_ENV=production node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node server.js"
+    "dev": "node server.js",
+    "build": "next build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.15.2",
+    "express": "^4.16.2",
     "isomorphic-unfetch": "^2.0.0",
     "next": "^4.2.0",
     "react": "^16.2.0",
